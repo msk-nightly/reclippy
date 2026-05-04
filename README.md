@@ -1,6 +1,6 @@
-# ReClip
+# ReClippy
 
-ReClip by Avery Gan is a self-hosted, open-source video and audio downloader with a clean web UI. Paste links from YouTube, TikTok, Instagram, Twitter/X, and 1000+ other sites — download as MP4 or MP3. Run it in a disposable Alpine Linux Container, which is low footprint, quick and inexpensive, or directly as a Python app (given you have flask and yt-dlp installed). Some simple additions/modifications chosen from the PRs in upstream repository have been used to improve user experience.
+ReClip by Avery Gan is a self-hosted, open-source video and audio downloader with a clean web UI. Paste links from YouTube, TikTok, Instagram, Twitter/X, and 1000+ other sites — download as MP4 or MP3. Run it in a disposable Alpine Linux Container, which is low footprint, quick and inexpensive, or directly as a Python app (given you have flask and yt-dlp installed). Some simple additions/modifications, mostly chosen from the PRs in upstream repository, have been applied to improve user experience. Changed the title to in remembrance of Clippy and a world not too long ago in the past which was far removed from the slippery slop of *Artificial Intelligence*.
 
 ![Python](https://img.shields.io/badge/python-3.8+-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -18,7 +18,7 @@ ReClip by Avery Gan is a self-hosted, open-source video and audio downloader wit
 ## Quick Start
 
 ```bash
-brew install yt-dlp ffmpeg    # or apt install pipx python3-flask ffmpeg && pipx install yt-dlp
+brew install yt-dlp ffmpeg    # or apt install pipx python3-flask ffmpeg && pipx install yt-dlp[default]
 git clone https://github.com/averygan/reclip.git
 cd reclip
 ./reclip.sh    # or python3 app.py
