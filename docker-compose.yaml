@@ -1,8 +1,8 @@
-name: reclip
+name: reclippy
 
 services:
   reclip:
-    container_name: reclip
+    container_name: reclippy
     build: .
     cap_drop:
       - ALL
